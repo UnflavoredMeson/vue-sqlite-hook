@@ -1,6 +1,6 @@
 {
   "name": "vue-sqlite-hook",
-  "version": "2.1.8",
+  "version": "3.0.0",
   "description": "Vue Hook for @capacitor-community/sqlite",
   "repository": {
     "type": "git",
@@ -29,8 +29,8 @@
     "test": "jest"
   },
   "peerDependencies": {
-    "@capacitor-community/sqlite": "^3.0.0",
-    "@capacitor/core": "^3.0.0"
+    "@capacitor-community/sqlite": ">= 4.0.0 < 5",
+    "@capacitor/core": ">= 4.0.0 < 5"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -38,9 +38,9 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.17.0",
-    "@capacitor-community/sqlite": "^3.5.0",
-    "@capacitor/core": "^3.5.0",
-    "@capacitor/docgen": "0.0.17",
+    "@capacitor-community/sqlite": "^4.0.0-1",
+    "@capacitor/core": "^4.0.0",
+    "@capacitor/docgen": "^0.2.0",
     "@types/jest": "^27.4.1",
     "@vue/cli-plugin-babel": "^5.0.4",
     "@vue/cli-plugin-eslint": "^5.0.4",
